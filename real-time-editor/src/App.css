@@ -1,0 +1,167 @@
+.homepageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+  text-decoration: none;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLable {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homepageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputbox {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn ,.leaveBtn {
+  background: #4aee88;
+  color: #fff;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover, .leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.createNewBtn {
+  color: #4aee88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aee88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #4aee88;
+}
+
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  height: 100vh;
+  min-height: 100vh;
+    background: #1c1e29;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.asideInner{
+    flex: 1;
+}
+
+.clientList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.client img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.username{
+    padding: 10px;
+}
+
+.logo{
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+}
+
+.logoImage{
+    height: 60px;
+}
+
+.leaveBtn{
+    margin-top: 20px;
+    width: 100%;
+} 
+
+
+.CodeMirror {
+    min-height: 100vh;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+  }
+  
+  /* Hide the original textarea */
+  /* #realtime-editor {
+    display: none;
+  }
+   */
+.mainWrap{
+  overflow-y: hidden;
+}
+
+.realtime-editor{
+  overflow-x: scroll;
+}
